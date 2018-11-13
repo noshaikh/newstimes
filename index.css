@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-family: "Pinyon Script", cursive;
+  font-weight: lighter;
+  font-size: 64px;
+}

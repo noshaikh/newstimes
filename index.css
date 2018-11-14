@@ -3,7 +3,7 @@
 }
 
 body {
-  max-width: 880px;
+  max-width: 90vw;
   width: 100%;
   margin: 0 auto;
 }
@@ -12,4 +12,69 @@ body {
   font-family: "Pinyon Script", cursive;
   font-weight: lighter;
   font-size: 64px;
+  text-align: center;
+  padding: 2% 0 0 0;
+}
+
+.container-article {
+  border: gray solid 3px;
+  padding: 2.5px;
+}
+
+.row-article {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+.article-title {
+  text-align: center;
+}
+.article {
+  padding: 0 1%;
+  width: 100%;
+}
+.article-center {
+  width: 200%;
+  margin-left: 1%;
+  padding: 0 1%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.center-img {
+  width: 100%;
+}
+
+.nav-feature {
+  width: 300%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  font-size: 32px;
+  color: grey;
+  font-weight: bold;
+  border-left: 2px solid gray;
+  padding: 2% 1%;
+}
+
+.pol {
+  background-color: blanchedalmond;
+}
+
+.tech {
+  background-color: aqua;
+}
+
+.local {
+  background-color: aquamarine;
+}
+
+.op {
+  background-color: rgba(0, 0, 255, 0.247);
+}
+
+.sports {
+  background-color: rgba(137, 43, 226, 0.568);
 }
